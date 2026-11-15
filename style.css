@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #2b2b2b;
+}
+
+.sidebar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 60px;
+    height: 100%;
+    background-color: #1e1e1e;
+    border: 1px solid;
+    z-index: 10;
+}
+
+.header-row {
+    width: calc(100% - 70px);
+    height: 60px;
+    margin: 5px 5px 5px 65px;
+    background-color: #03afff;
+    border: 5px solid;
+}
+
+.row {
+    width: calc(100% - 70px);
+    height: 200px;
+    margin: 5px 5px 5px 65px;
+    border: 5px solid;
+}
+
+.square {
+    float: left;
+    width: calc(25% - 10px);
+    height: calc(100% - 10px);
+    margin: 5px;
+    border: 5px solid;
+    background-color: #2c3e50;
+}
+
+.row-middle {
+    width: calc(100% - 70px);
+    height: 400px;
+    margin: 5px 5px 5px 65px;
+    border: 5px solid;
+}
+
+.square-left {
+    float: left;
+    width: calc(75% - 10px);
+    height: calc(100% - 10px);
+    margin: 5px;
+    border: 5px solid;
+    background-color: #2c3e50;
+}
+
+.right-column {
+    float: left;
+    width: calc(25% - 10px);
+    height: calc(100% - 10px);
+    margin: 5px;
+}
+
+.square-right-top {
+    width: 100%;
+    height: calc(50% - 5px);
+    margin-bottom: 5px;
+    border: 5px solid;
+    background-color: #2c3e50;
+}
+
+.square-right-bottom {
+    width: 100%;
+    height: calc(50% - 5px);
+    margin-top: 5px;
+    border: 5px solid;
+    background-color: #2c3e50;
+}
+
+.row-bottom {
+    width: calc(100% - 70px);
+    height: 150px;
+    margin: 5px 5px 5px 65px;
+    border: 5px solid;
+}
+
+.square-bottom {
+    float: left;
+    width: calc(50% - 10px);
+    height: calc(100% - 10px);
+    margin: 5px;
+    border: 5px solid;
+    background-color: #03afff;
+}
